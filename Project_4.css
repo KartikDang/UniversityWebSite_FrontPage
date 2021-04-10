@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+header{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("banner.png");
+    display: flex;
+    flex-direction: column;
+    height: 113vh;
+    margin: 0px;
+    padding: 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#outer{
+    display: flex;
+    flex-direction: row;
+}
+
+#outer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 100vh;
+    font-size: 2.2vh;
+    
+}
+
+#outer ul li{
+    padding: 15px;
+    padding-bottom: 3px;
+}
+
+
+
+#item{
+    color: white;
+    text-decoration: none ;
+    transition: all 1s;
+    border-bottom-width: 3.1px;
+
+}
+
+
+#image img{
+    padding: 20px;
+    width: 65%;
+    padding-left: 30px; 
+}
+
+#item:hover{
+    
+    color: #ff7b39;
+}
+
+#button a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+    
+}
+
+#button:hover h3{
+    color: #ff7b39;
+}
+
+
+
+#button{
+    border: 2px white solid;
+    width: fit-content;
+    padding: 1rem;
+    margin-left: 45.9rem;
+    transition: all 0.5s;
+    
+}
+
+#button:hover{
+    background: #ff7b39;
+    border: 3px #ff7b39 solid;
+}
+
+#text{
+    color: white;
+   
+}
+
+#middle_top{
+    text-align: center;
+    margin-top: 13rem;
+}
+
+#text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    font-size: 3rem;
+}
+
+#part_2{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#part_2 h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#part_2_para{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#Boxes{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+}
+
+#Box_1{
+    flex:1;
+    padding: 1rem;
+    margin: 2rem;
+    transition: all 0.5s;
+    width: fit-content;
+    text-align: center;
+    background: #fff3f3;
+}
+
+#Box_2{
+    flex:1;
+    padding: 1rem;
+    margin: 2rem;
+    transition: all 0.5s;
+    width: fit-content;
+    text-align: center;
+    background: #fff3f3;
+}
+
+#Box_3{
+    flex:1;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 3px;
+    width: fit-content;
+    text-align: center;
+    background: #fff3f3;
+    transition: all 0.5s;
+}
+
+#Box_1:hover,#Box_2:hover,#Box_3:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+#Box_1 h3,#Box_2 h3,#Box_3 h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+#part_2_2{
+    text-align: center;
+    
+}
+
+#part_2_2 h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+#part_2_2_boxes{
+    display: flex;
+    width: 80%;
+    margin-left: 10rem;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+#Box_2_2{
+    flex:1;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem;
+    position: relative;
+    
+}
+
+#Box_2_2 img{
+    border: 0.1px white solid;
+    border-radius: 10px;
+    width: 100%;
+  
+}
+
+#Layer h3{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    left: 8rem;
+    top: 15rem;
+    opacity: 0;
+    transition: all 0.5s;
+    color: white;
+}
+
+#Layer:hover h3{
+    opacity: 1;
+
+}
+
+#Layer{
+    height: 89%;
+    width: 86%;
+    position: absolute;
+    background: transparent;
+    top: 2rem;
+    border: 0.1px white solid;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+#Layer:hover{
+    background: rgba(226,0,0,0.7);
+}
+
+
+#part_2_3{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#part_2_3_para{
+    margin: 0;
+}
+
+#part_2_3_boxes{
+    display: flex;
+    width: 80%;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    
+}
+
+#Box_2_3 img{
+    width: 100%;
+    border: 0.1px white solid;
+    border-radius: 10px;
+}
+
+#Box_2_3{
+    margin: 1.5rem;
+
+}
+#writeup_2_3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+    width: 80%;
+}
+
+#st{
+    padding: 1.5rem;
+    padding-top: 0rem;
+}
+#nd{
+    padding: 1.6rem;
+    padding-top: 0rem;
+}
+#rd{
+    padding: 1.6rem;
+    padding-top: 0;
+}
+
+#st h3,#nd h3,#rd h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+#part_2_4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#part_2_4_boxes{
+    display: flex;
+    margin-top: 3rem;
+    width: 80%;
+    margin-left: 10rem;
+   
+}
+
+#Box_2_4 img{
+    border: 0.1px white solid;
+    border-radius: 50%;
+    width: 8%;
+    float: left;
+}
+
+#Box_2_4{
+    background: #fff3f3;
+    margin: 2rem;
+    padding: 2rem;
+    border: 0.1px white solid;
+    border-radius: 10px;
+}
+
+#Box_2_4 p{
+    padding-left: 4rem;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#Box_2_4 h4{
+    
+    font-family: 'Poppins', sans-serif;
+    padding-left: 4rem;   
+}
+
+#part_2_5 {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("banner2.jpg");
+    height: 20rem;
+    width: 80%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    margin-left: 10rem;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#part_2_5 h1{
+    
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8rem;
+
+}
+
+#button2 p{
+    border: 2px white solid;    
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    padding : 0.7rem;
+    width: max-content;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    transition: all 0.5s;
+}
+
+#button2 p:hover, #button2:hover{
+    color: #ff7b39;
+    border-color: #ff7b39;
+}
+
+footer{
+    text-align: center;
+}
+
+.fa{
+    padding: 1rem;
+    color:#ff7b39;
+}
+
+#AboutUs{
+    font-family: 'Poppins', sans-serif;
+}
